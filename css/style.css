@@ -4,13 +4,16 @@ body {
 :focus {
 	outline: none !important;
 }
+.navbar-brand>img {
+    max-width: 141px;
+}
 #homeCarousel {
 	height: 478px;
 	background: url(../img/banner-bg.png);
 	background-size: cover;
 	padding: 80px 0px;
 }
-#homeCarousel .carousel-control {
+.slider-home .carousel-control {
 	background: none;
 }
 .carousel-caption-text h1 {
@@ -85,7 +88,7 @@ body {
 	top: 17px;
 }
 .navbar.navbar-static-top .navbar-brand {
-	padding: 8px 15px;
+	padding: 5px 15px;
 }
 input.search {
 	border: 1px solid #d2d2d2;
@@ -208,17 +211,32 @@ span.arrow-slider {
 	margin-bottom: -30px;
 }
 #ourclient .item {
-	border: 1px solid #ddd;
-	padding: 35px 20px;
+    border: 1px solid #f7f7f7;
+    padding: 20px;
+    width: calc(100% - 30px);
+    margin: auto;
+    background: #fdfdfd;
 }
 .client .container {
 	position: relative;
 }
 .client span.arrow-slider {
 	top: 0px;
+	    right: 10px !important;
 }
 .FeaturedProducts {
 	padding-bottom: 0;
+}
+.slider-home {
+    position: relative;
+}
+.quote img.media-object.img-circle.img-responsive {
+    margin: 0 auto 20px;
+}
+.quote h3 {
+    font-size: 14px;
+    margin: 0;
+    font-weight: bold;
 }
 .nead-help h2 {
     color: #0cb3df;
