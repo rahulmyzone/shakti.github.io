@@ -309,6 +309,7 @@ footer .navbar-right {
 }
 section.footer {
     padding-bottom: 0;
+	    background: #fdfdfd;
 }
 .copyright {
     border-top: 1px solid #ddd;
@@ -483,4 +484,12 @@ section.contact-page {
 }
 .contact-form h3.text-center.text-uppercase {
     margin: 40px 0px 30px;
+}
+.box-text {
+    background: #fdfdfd;
+    padding: 20px;
+    border: 1px solid #f7f7f7;
+}
+section.wpo-content {
+    border-bottom: 1px solid #f7f7f7;
 }
